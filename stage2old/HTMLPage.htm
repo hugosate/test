@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src=JScript.js></script>
+    <script type="text/javascript" src=hao_delete_line_test.js></script>
+    <script type="text/javascript" src=jquery.form.js></script>
+    <script type="text/javascript" src=jquery-1.7.2.min.js></script>
+</head>
+<body onload="init()">
+
+<canvas id="addWalls" width="500" height="500"  onmousemove="move1(event)" onmousedown="down1(event)" onmouseup="up1(event)" style="border:1px solid #c3c3c3;">
+Your browser does not support canvas
+</canvas>
+<canvas id="deleteWalls" width="500" height="500" onmousemove="move_on_wall(event)" onmousedown="click_on_wall(event)" style="border:1px solid #c3c3c3;">
+Your browser does not support canvas
+</canvas>
+<button type="button" onclick="draw_mode()">切换</button>
+<button type="button" onclick="delete_wall()">删除</button>
+<button type="button" onclick="save_wall()">保存</button>
+<span></span>
+
+</body>
+</html>
