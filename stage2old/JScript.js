@@ -11,7 +11,10 @@ var wallwidth_thick = 5; //加粗线宽
 var wallcolor_nor = "red";  //正常线段颜色
 var wallcolor_thick = "green"; //加粗线段颜色
 var wallcolor_select = "blue"; //选择后线段颜色
-var pointcolor = "black";
+
+var pointcolor = "white";
+
+
 
 sourceWalls = new Array();
 
